@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
+body{
+    background-image: linear-gradient(155deg, rgba(10, 1, 1, 0.9) 0%, rgba(202, 38, 38, 0.9) 70%, transparent 100%), url('./assets/arms\ up\ flex.jpg');
+    font-family: 'Bangers', cursive;
+    background-size: cover;
+    /* background-position-y: 4px; */
+    font-size: 25px;
+}
+
+.header{
+    margin-top: 6%;
+    text-align: center;
+}
+#headerCon{
+    background-color: black;
+    width: 100vw;
+}
+.box{
+  margin:25px;  
+  background:#fff;
+  border: solid black;
+  border-color: black;
+  float:left; 
+}
+
+#box1{
+  width:85vw;
+  border-width: 3px 4px 3px 5px;
+  border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+  transform: rotate(2deg);
+  padding:2%;
+  margin-top: 10%;
+  overflow-wrap: break-word;
+}
+
+#box2{
+  width:30vw;
+  border-width: 3px 3px 5px 5px;
+  border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+  transform: rotate(-2deg);
+  margin-left: 2vw;  
+  padding: 2%;
+  margin-top: 25%;
+  overflow-wrap: break-word;
+}
+
+#box3{
+  border-width: 5px 3px 3px 5px;
+  border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+  transform: rotate(2deg);
+  overflow-wrap: break-word;
+}
+
+.oddboxinner{
+  margin:15px;
+  transform: rotate(-2deg);
+}
+.evenboxinner{
+  transform: rotate(2deg);
+  margin:15px;
+  padding:0 5px;
+  float:right;
+  background:#ddd;
+  border:1px solid #222;
+  box-shadow:3px 3px 0 #222;
+}
+.trainingUl{
+    padding-top: 15%;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    #box2{
+        width: 85vw;
+        margin-left: 10%;
+    }
+
+
+  }
