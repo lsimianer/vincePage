@@ -1,20 +1,35 @@
 @import url(https://fonts.googleapis.com/css?family=Bangers);
+html{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+}
 
 body{
     background-image: linear-gradient(155deg, rgba(10, 1, 1, 0.9) 0%, rgba(202, 38, 38, 0.9) 70%, transparent 100%), url('./assets/arms\ up\ flex.jpg');
     font-family: 'Bangers', cursive;
     background-size: cover;
-    /* background-position-y: 4px; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-size: 25px;
+    margin: 0%;
+    width: 100%;
+    background-position-y:67px ;
 }
 
 .header{
     margin-top: 6%;
     text-align: center;
+    color: rgb(165, 7, 7);
+    padding-top: 2%;
 }
+
 #headerCon{
     background-color: black;
     width: 100vw;
+    height: 10vh;
+    margin-top: -6%;
 }
 .box{
   margin:25px;  
@@ -35,13 +50,13 @@ body{
 }
 
 #box2{
-  width:30vw;
+  width:40vw;
   border-width: 3px 3px 5px 5px;
   border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
   transform: rotate(-2deg);
-  margin-left: 2vw;  
+  /* margin-left: 2vw;   */
   padding: 2%;
-  margin-top: 25%;
+  margin-top: 10%;
   overflow-wrap: break-word;
 }
 
@@ -68,15 +83,37 @@ body{
 .trainingUl{
     padding-top: 15%;
 }
+#singleCon{
+    margin-left: 5%;
+}
+#doubleCon{
+    margin-left: 5%;
+}
+#footerCon{
+    width: 100%;
+}
+.footerContent{
+    color: rgb(165, 7, 7);
+    font-size: 22px;
+}
+.footIcon{
+    padding-right:10px ;
+}
 
+.navbar{
+    background-color: black;
+}
 @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
+    
     #box2{
         width: 85vw;
-        margin-left: 10%;
+        /* margin-left: 10%; */
     }
-
+    #singleCon{
+        margin-left: 0%;
+    }
+    #doubleCon{
+        margin-left: 0%;
+    }
 
   }
