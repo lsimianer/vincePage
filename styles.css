@@ -81,9 +81,12 @@ body{
   border:1px solid #222;
   box-shadow:3px 3px 0 #222;
 }
-/* .carouselPic{
-    width: 50%;
-} */
+.boxTextOne{
+    margin-top: 10%;
+}
+#carouselCon{
+    margin-bottom: 5%;
+}
 .trainingUl{
     padding-top: 15%;
 }
@@ -118,10 +121,14 @@ body{
         /* margin-left: 10%; */
     }
     #singleCon{
-        margin-left: 0%;
+        margin-left: -8%;
     }
     #doubleCon{
-        margin-left: 0%;
+        margin-left: -8%;
     }
+    #box1{        
+        padding:8%;
+        
+      }
 
   }
